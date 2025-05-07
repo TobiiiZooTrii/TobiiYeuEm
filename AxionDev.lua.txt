@@ -10144,3 +10144,8 @@ spawn(function()
         end
     end
 end)
+Notify({
+    Title = "TBoy Roblox",
+    Content = "Tải Xong",
+    Duration = 10
+});
