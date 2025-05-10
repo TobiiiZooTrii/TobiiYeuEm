@@ -2555,7 +2555,7 @@ spawn(function()
 		end
 	end
 end)
-getgenv().FastAttack = false
+getgenv().FastAttack = true
 Toggle = Settings:AddToggle("Toggle", {Title = "Fast Attack", Default = true})
 _G.FastAttackStrix_Mode="Super Fast Attack"
 spawn(function()
